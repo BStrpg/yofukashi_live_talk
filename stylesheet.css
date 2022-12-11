@@ -308,6 +308,9 @@ width:80px;
 width:100%;
 }
 .log div.byousha{
+position:relative;
+word-break:break-word;
+overflow-wrap:break-word;
 margin-left:5px;
 margin-top:20px;
 margin-bottom:10px;
@@ -323,6 +326,7 @@ width:70px;
 height:70px;
 }
 .left p{
+position:relative;
 font-size:90%;
 width:220px;
 }
@@ -333,6 +337,7 @@ border-left-width:20px;
 border-right-width:20px;
 }
 .left span{
+position:relative;
 width:150px;
 height:1.5em;
 font-size:90%;
