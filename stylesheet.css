@@ -326,15 +326,8 @@ border-left-width:20px;
 border-right-width:20px;
 }
 .left span{
-display:block;
-position:relative;
 width:150px;
 height:1.5em;
-background:#ccc;
-margin-bottom:-20px;
-margin-left:10px;
-padding-left:8px;
-border-radius:5px;
 font-size:90%;
 }
 a:link,a:visited,a:hover{text-decoration:none;color:rgb(136, 136, 136);;}
