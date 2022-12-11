@@ -343,8 +343,8 @@ height:1.5em;
 font-size:90%;
 }
 a:link,a:visited,a:hover{text-decoration:none;color:rgb(136, 136, 136);;}
-.fixed{position:fixed;top:0;left:0;margin-left:0 !important;width:100%;background:#fff;height:30px;color:rgb(136, 136, 136);;z-index:999;padding-top:0.8em;padding-left:1em;font-weight:bold;}
-#top{margin-top:-100px;padding-top:100px;}
+.fixed{display: block;position:fixed;top:0;left:0;margin-left:0 !important;width:100%;background:#fff;height:30px;color:rgb(136, 136, 136);;z-index:999;padding-top:0.8em;padding-left:1em;font-weight:bold;}
+#top{display: block;margin-top:-100px;padding-top:100px;}
 
 /* member */
 /* 発言者：KP */
