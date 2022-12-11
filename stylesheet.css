@@ -145,6 +145,8 @@ border-radius:5px;
 font-size:110%;
 }
 
+.fixed{display: none;}
+#top{display: none;}
 
 /* member */
   /* 発言者：KP */
@@ -171,7 +173,7 @@ font-size:110%;
 .p2 p:after{border-right-color:rgb(179, 48, 255);}
 .p2 span{background:rgb(179, 48, 255);color:#000;}
 .icon_p2_notalk:before{content:'';background-image:url("./icon/seiran_icon_1.png");background-size:contain;background-repeat:no-repeat;background-position:center center;width:90px;height:90px;}
-.icon_p2_smile:before{content:'';background-image:url("./icon/seiran_icon_2.png");background-size:contain;background-repeat:no-repeat;background-position:center center;width:90px;height:90px;}
+.icon_p2_smile:before{content:'';background-image:url("./icon/seiran_icon_2.png");background-size:contain;backrightground-repeat:no-repeat;background-position:center center;width:90px;height:90px;}
 .icon_p2_oko:before{content:'';background-image:url("./icon/seiran_icon_3.png");background-size:contain;background-repeat:no-repeat;background-position:center center;width:90px;height:90px;}
 .icon_p2_metoji:before{content:'';background-image:url("./icon/seiran_icon_4.png");background-size:contain;background-repeat:no-repeat;background-position:center center;width:90px;height:90px;}
 .icon_p2_suneru:before{content:'';background-image:url("./icon/seiran_icon_5.png");background-size:contain;background-repeat:no-repeat;background-position:center center;width:90px;height:90px;}
