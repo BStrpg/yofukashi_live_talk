@@ -316,32 +316,32 @@ margin-bottom:10px;
 width:90%;
 font-size:90%;
 }
-.left{
+.left,.right{
 margin-left:80px;
 }
-.left:before{
+.left:before,.right:before{
 margin-left:10px;
 width:70px;
 height:70px;
 }
-.left p{
+.left p,.right p{
 font-size:90%;
 width:220px;
 }
-.left p:after{
+.left p:after,.right p:after{
 border-top-width:8px;
 border-bottom-width:8px;
 border-left-width:20px;
 border-right-width:20px;
 }
-.left span{
+.left span,.right span{
 width:150px;
 height:1.5em;
 font-size:90%;
 }
 a:link,a:visited,a:hover{text-decoration:none;color:rgb(136, 136, 136);;}
-.fixed{display: block;position:fixed;top:0;left:0;margin-left:0 !important;width:100%;background:#fff;height:30px;color:rgb(136, 136, 136);;z-index:999;padding-top:0.8em;padding-left:1em;font-weight:bold;}
-#top{display: block;margin-top:-100px;padding-top:100px;}
+.fixed{display:block;position:fixed;top:0;left:0;margin-left:0 !important;width:100%;background:#fff;height:30px;color:rgb(136, 136, 136);;z-index:999;padding-top:0.8em;padding-left:1em;font-weight:bold;}
+#top{display:block;margin-top:-100px;padding-top:100px;}
 
 /* member */
 /* 発言者：KP */
