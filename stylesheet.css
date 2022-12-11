@@ -304,7 +304,7 @@ width:100% !important;
 width:80px;
 }
 .log{
-width:100%;
+width:100% !important;
 }
 .log div.byousha{
 position:relative;
@@ -313,7 +313,7 @@ overflow-wrap:break-word;
 margin-left:5px;
 margin-top:20px;
 margin-bottom:10px;
-width:90%;
+width:90% !important;
 font-size:90%;
 }
 .left,.right{
