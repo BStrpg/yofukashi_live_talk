@@ -296,6 +296,8 @@ width:100% !important;
 
 @media only screen and (max-device-width: 768px) {
 
+.rightwhite{display: none;}
+
 *{font-family:sans-serif;}
 .leftwhite{
 width:80px;
