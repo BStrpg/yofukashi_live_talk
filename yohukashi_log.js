@@ -92,7 +92,7 @@ $('.log div').eq(i).css({'opacity':'1'});
 }
 }
 }
-
+opacityON();
 
 }
 //スマホ用
@@ -163,7 +163,6 @@ $('.log div').eq(i).css({'opacity':'1'});
 }
 }
 }
-
+opacityON();
 
 };
-opacityON();
