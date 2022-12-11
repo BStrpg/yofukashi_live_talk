@@ -343,8 +343,10 @@ a:link,a:visited,a:hover{text-decoration:none;color:rgb(136, 136, 136);;}
 
 /* member */
 /* 発言者：KP */
+.kp span{background:rgb(136, 136, 136);color:#000;}
 .icon_kp:before{width:70px;height:70px;}
 /* 発言者：夜月 真夜 */
+.p1 span{background:rgb(233,30,99);color:#000;}
 .icon_p1_talk:before{width:70px;height:70px;}
 .icon_p1_notalk:before{width:70px;height:70px;}
 .icon_p1_ase:before{width:70px;height:70px;}
@@ -356,12 +358,14 @@ a:link,a:visited,a:hover{text-decoration:none;color:rgb(136, 136, 136);;}
 .icon_p1_zekkyou_metoji:before{width:70px;height:70px;}
 .icon_p1_zekkyou_naku:before{width:70px;height:70px;}
 /* 発言者：淵上 星嵐 */
+.p2 span{background:rgb(179, 48, 255);color:#000;}
 .icon_p2_notalk:before{width:70px;height:70px;}
 .icon_p2_smile:before{width:70px;height:70px;}
 .icon_p2_oko:before{width:70px;height:70px;}
 .icon_p2_metoji:before{width:70px;height:70px;}
 .icon_p2_suneru:before{width:70px;height:70px;}
 /* 発言者：彼方☆キャミィ */
+.p3 span{background:rgb(18, 255, 58);color:#000;}
 .icon_p3_talk:before{width:70px;height:70px;}
 .icon_p3_ase:before{width:70px;height:70px;}
 .icon_p3_notalk:before{width:70px;height:70px;}
@@ -371,6 +375,7 @@ a:link,a:visited,a:hover{text-decoration:none;color:rgb(136, 136, 136);;}
 .icon_p3_sleep:before{width:70px;height:70px;}
 .icon_p3_metoji:before{width:70px;height:70px;}
   /* 発言者：獅堂 エリス */
+.p4 span{background:rgb(255, 235, 59);color:#000;}
 .icon_p4_talk:before{width:70px;height:70px;}
 .icon_p4_peace:before{width:70px;height:70px;}
 .icon_p4_majime:before{width:70px;height:70px;}
