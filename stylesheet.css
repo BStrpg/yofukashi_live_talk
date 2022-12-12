@@ -309,36 +309,44 @@ width:80px;
 width:100% !important;
 }
 .log div.byousha{
-position:relative;
-word-break:break-word;
-overflow-wrap:break-word;
-margin-left:5px;
-margin-top:20px;
-margin-bottom:10px;
 width:90% !important;
 font-size:90%;
 }
 .left,.right{
 margin-left:80px;
+margin-top:15px;
 }
 .left:before,.right:before{
+content:'';
+position:absolute;
+left:0;
 margin-left:10px;
+margin-top:10px;
 width:70px;
 height:70px;
-left:0;
+z-index:600;
 }
 .left p,.right p{
+position:relative;
 font-size:90%;
 width:220px;
 z-index:0;
 }
 .left p:after,.right p:after{
+border:solid transparent;
+content:'';
+height:0;
+width:0;
+pointer-events:none;
+position:absolute;
 border-top-width:8px;
 border-bottom-width:8px;
 border-left-width:20px;
 border-right-width:20px;
+margin-top: -10px;
 border-right-color:#ccc;
 right:100%;
+top:20px;
 }
 .left span,.right span{
 width:150px;
