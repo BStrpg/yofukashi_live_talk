@@ -325,6 +325,7 @@ margin-left:80px;
 margin-left:10px;
 width:70px;
 height:70px;
+left:0;
 }
 .left p,.right p{
 font-size:90%;
@@ -336,6 +337,9 @@ border-top-width:8px;
 border-bottom-width:8px;
 border-left-width:20px;
 border-right-width:20px;
+border-right-color:#ccc;
+left:0;
+right:100%;
 }
 .left span,.right span{
 display:block;
