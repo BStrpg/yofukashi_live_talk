@@ -148,7 +148,7 @@ count++
 });
 for(i = 0 ; i <= count - 2 ; i++){
 var classname = $('.log div').eq(i).attr('class');
-if(classname.indexOf('kp') !== -1){
+if(classname.indexOf('byousha') !== -1){
 $('.log div').eq(i).addClass('LtoR-early');
 }
 else{
