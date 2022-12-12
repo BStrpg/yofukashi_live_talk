@@ -298,18 +298,33 @@ width:100% !important;
 
 @media only screen and (max-device-width: 768px) {
 
-.rightwhite{display: none;}
+ *{font-family:sans-serif;}
 
-*{font-family:sans-serif;}
+ .rightwhite{display: none;}
 
 .leftwhite{
+position:fixed;
+top:0;
+left:0;
+height:100%;
 width:80px;
+z-index:100;
 }
 .log{
 width:100% !important;
+left:0;
+top:0;
+margin-left:15px;
 }
 .log div.byousha{
+position:relative;
+word-break:break-word;
+overflow-wrap:break-word;
+margin-left:5px;
+margin-top:20px;
+margin-bottom:10px;
 width:90% !important;
+z-index:200;
 font-size:90%;
 }
 .left,.right{
@@ -330,6 +345,16 @@ z-index:600;
 position:relative;
 font-size:90%;
 width:220px;
+padding:10px;
+text-align:left;
+border-radius:10px;
+-webkit-border-radius:10px;
+-moz-border-radius:10px;
+border:2px solid #ccc;
+box-shadow:5px 5px 0 #ccc;
+line-height:1em;
+word-break:break-word;
+overflow-wrap:break-word;
 z-index:0;
 }
 .left p:after,.right p:after{
