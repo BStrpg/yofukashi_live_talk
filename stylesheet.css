@@ -301,6 +301,7 @@ width:100% !important;
 .rightwhite{display: none;}
 
 *{font-family:sans-serif;}
+
 .leftwhite{
 width:80px;
 }
@@ -328,6 +329,7 @@ height:70px;
 .left p,.right p{
 font-size:90%;
 width:220px;
+z-index:0;
 }
 .left p:after,.right p:after{
 border-top-width:8px;
@@ -387,5 +389,6 @@ a:link,a:visited,a:hover{text-decoration:none;color:rgb(136, 136, 136);;}
 .icon_p4_metoji:before{width:70px;height:70px;}
 .icon_p4_notalk:before{width:70px;height:70px;}    
 
-.log{margin-top:60px;}  
+.log{margin-top:60px;}
+.log div{margin-top:2.5em;margin-bottom:2.5em;} 
 }
