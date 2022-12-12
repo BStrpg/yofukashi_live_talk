@@ -1,4 +1,15 @@
-if(!navigator.userAgent.match(/(iPhone|iPad|iPod|Android)/)){
+// if(!navigator.userAgent.match(/(iPhone|iPad|iPod|Android)/)){
+
+$windowWidth = window.innerWidth;
+
+$breakPointA = 768;
+// $breakPointB = 1024;
+
+isMobileSize = ($windowWidth < $breakPointA);
+// isTabletSize = ($windowWidth <= $breakPointB) && ($windowWidth > $breakPointA);
+isPcSize = ($windowWidth > $breakPointA);
+
+if(isPcSize){
 //PCの場合
 
 //visibility:byousha
@@ -95,8 +106,10 @@ $('.log div').eq(i).css({'opacity':'1'});
 opacityON();
 
 }
+
+else if(isMobileSize){
 //スマホ用
-else{
+
 //visibility:byousha
 $(function(){
 $(window).scroll(function (){
@@ -191,3 +204,15 @@ $('.log div').eq(i).css({'opacity':'1'});
 opacityON();
 
 };
+
+/*++++ オーディオ要素のリスト ++++*/
+var audios = document.querySelectorAll( "audio" );
+
+/*++++ イベント ++++*/
+for(var i=0;i<audios.length;i++){
+audios[ i ].addEventListener( "play", function(){
+for(var j=0;j<audios.length;j++){
+if( audios[ j ]!=this ){ audios[ j ].pause() }
+}
+}, false );
+}
