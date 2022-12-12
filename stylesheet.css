@@ -1,7 +1,14 @@
 /* main css */
 body {background-color: #000;}
-
 .hide{visibility:hidden;}
+
+
+@media only screen and (min-width: 769px) {
+
+/* pc不要部分非表示 */
+.fixed{display: none;}
+#top{display: none;}
+
 .leftwhite{
 position:fixed;
 top:0;
@@ -145,62 +152,6 @@ border-radius:5px;
 font-size:110%;
 }
 
-.fixed{display: none;}
-#top{display: none;}
-
-/* member */
-  /* 発言者：KP */
-.kp p{border:2px solid rgb(136, 136, 136);box-shadow:5px 5px 0 rgb(136, 136, 136);color:#fff;}
-.kp p:after{border-right-color:rgb(136, 136, 136);}
-.kp span{background:rgb(136, 136, 136);color:#000;}
-.icon_kp:before{content:'';background-image:url("./icon/KP.png");background-size:contain;background-repeat:no-repeat;background-position:center center;width:90px;height:90px;}
-  /* 発言者：夜月 真夜 */
-.p1 p{border:2px solid rgb(233,30,99);box-shadow:5px 5px 0 rgb(233,30,99);color:#fff;}
-.p1 p:after{border-right-color:rgb(233,30,99);}
-.p1 span{background:rgb(233,30,99);color:#000;}
-.icon_p1_talk:before{content:'';background-image:url("./icon/maya_icon_1.png");background-size:contain;background-repeat:no-repeat;background-position:center center;width:90px;height:90px;}
-.icon_p1_notalk:before{content:'';background-image:url("./icon/maya_icon_2.png");background-size:contain;background-repeat:no-repeat;background-position:center center;width:90px;height:90px;}
-.icon_p1_ase:before{content:'';background-image:url("./icon/maya_icon_3.png");background-size:contain;background-repeat:no-repeat;background-position:center center;width:90px;height:90px;}
-.icon_p1_nohand_notalk:before{content:'';background-image:url("./icon/maya_icon_4.png");background-size:contain;background-repeat:no-repeat;background-position:center center;width:90px;height:90px;}
-.icon_p1_nohand_talk:before{content:'';background-image:url("./icon/maya_icon_5.png");background-size:contain;background-repeat:no-repeat;background-position:center center;width:90px;height:90px;}
-.icon_p1_nohand_metoji:before{content:'';background-image:url("./icon/maya_icon_6.png");background-size:contain;background-repeat:no-repeat;background-position:center center;width:90px;height:90px;}
-.icon_p1_dark:before{content:'';background-image:url("./icon/mayaY_icon_1.png");background-size:contain;background-repeat:no-repeat;background-position:center center;width:90px;height:90px;}
-.icon_p1_zekkyou:before{content:'';background-image:url("./icon/mayaY_icon_2.png");background-size:contain;background-repeat:no-repeat;background-position:center center;width:90px;height:90px;}
-.icon_p1_zekkyou_metoji:before{content:'';background-image:url("./icon/mayaY_icon_3.png");background-size:contain;background-repeat:no-repeat;background-position:center center;width:90px;height:90px;}
-.icon_p1_zekkyou_naku:before{content:'';background-image:url("./icon/maya_iconY_4.png");background-size:contain;background-repeat:no-repeat;background-position:center center;width:90px;height:90px;}
-/* 発言者：淵上 星嵐 */
-.p2 p{border:2px solid rgb(179, 48, 255);box-shadow:5px 5px 0 rgb(179, 48, 255);color:#fff;}
-.p2 p:after{border-right-color:rgb(179, 48, 255);}
-.p2 span{background:rgb(179, 48, 255);color:#000;}
-.icon_p2_notalk:before{content:'';background-image:url("./icon/seiran_icon_1.png");background-size:contain;background-repeat:no-repeat;background-position:center center;width:90px;height:90px;}
-.icon_p2_smile:before{content:'';background-image:url("./icon/seiran_icon_2.png");background-size:contain;backrightground-repeat:no-repeat;background-position:center center;width:90px;height:90px;}
-.icon_p2_oko:before{content:'';background-image:url("./icon/seiran_icon_3.png");background-size:contain;background-repeat:no-repeat;background-position:center center;width:90px;height:90px;}
-.icon_p2_metoji:before{content:'';background-image:url("./icon/seiran_icon_4.png");background-size:contain;background-repeat:no-repeat;background-position:center center;width:90px;height:90px;}
-.icon_p2_suneru:before{content:'';background-image:url("./icon/seiran_icon_5.png");background-size:contain;background-repeat:no-repeat;background-position:center center;width:90px;height:90px;}
-/* 発言者：彼方☆キャミィ */
-.p3 p{border:2px solid rgb(18, 255, 58);box-shadow:5px 5px 0 rgb(18, 255, 58);color:#fff;}
-.p3 p:after{border-right-color:rgb(18, 255, 58);}
-.p3 span{background:rgb(18, 255, 58);color:#000;}
-.icon_p3_talk:before{content:'';background-image:url("./icon/kyami_icon_1.png");background-size:contain;background-repeat:no-repeat;background-position:center center;width:90px;height:90px;}
-.icon_p3_ase:before{content:'';background-image:url("./icon/kyami_icon_2.png");background-size:contain;background-repeat:no-repeat;background-position:center center;width:90px;height:90px;}
-.icon_p3_notalk:before{content:'';background-image:url("./icon/kyami_icon_3.png");background-size:contain;background-repeat:no-repeat;background-position:center center;width:90px;height:90px;}
-.icon_p3_oko:before{content:'';background-image:url("./icon/kyami_icon_4.png");background-size:contain;background-repeat:no-repeat;background-position:center center;width:90px;height:90px;}
-.icon_p3_shirakiru:before{content:'';background-image:url("./icon/kyami_icon_5.png");background-size:contain;background-repeat:no-repeat;background-position:center center;width:90px;height:90px;}
-.icon_p3_shock:before{content:'';background-image:url("./icon/kyami_icon_6.png");background-size:contain;background-repeat:no-repeat;background-position:center center;width:90px;height:90px;}
-.icon_p3_sleep:before{content:'';background-image:url("./icon/kyami_icon_7.png");background-size:contain;background-repeat:no-repeat;background-position:center center;width:90px;height:90px;}
-.icon_p3_metoji:before{content:'';background-image:url("./icon/kyami_icon_8.png");background-size:contain;background-repeat:no-repeat;background-position:center center;width:90px;height:90px;}
-  /* 発言者：獅堂 エリス */
-.p4 p{border:2px solid rgb(255, 235, 59);box-shadow:5px 5px 0 rgb(255, 235, 59);color:#fff;}
-.p4 p:after{border-right-color:rgb(255, 235, 59);}
-.p4 span{background:rgb(255, 235, 59);color:#000;}
-.icon_p4_talk:before{content:'';background-image:url("./icon/erisu_icon_1.png");background-size:contain;background-repeat:no-repeat;background-position:center center;width:90px;height:90px;}
-.icon_p4_peace:before{content:'';background-image:url("./icon/erisu_icon_2.png");background-size:contain;background-repeat:no-repeat;background-position:center center;width:90px;height:90px;}
-.icon_p4_majime:before{content:'';background-image:url("./icon/erisu_icon_3.png");background-size:contain;background-repeat:no-repeat;background-position:center center;width:90px;height:90px;}
-.icon_p4_ase:before{content:'';background-image:url("./icon/erisu_icon_4.png");background-size:contain;background-repeat:no-repeat;background-position:center center;width:90px;height:90px;}
-.icon_p4_metoji:before{content:'';background-image:url("./icon/erisu_icon_5.png");background-size:contain;background-repeat:no-repeat;background-position:center center;width:90px;height:90px;}
-.icon_p4_notalk:before{content:'';background-image:url("./icon/erisu_icon_6.png");background-size:contain;background-repeat:no-repeat;background-position:center center;width:90px;height:90px;}
-
-
 /* animation */
 .LtoR{
 animation-name:slideL;
@@ -283,9 +234,6 @@ opacity:1;
 }
 }
 
-/* priority */
-.log div{margin-top:2.5em;margin-bottom:2.5em;}
-
 @media only screen and (orientation: portrait){
 .log{
 width:95vw !important;
@@ -295,11 +243,15 @@ width:100% !important;
 }
 }
 
+}
 
-@media only screen and (max-device-width: 768px) {
+
+/* スマホ用 */
+@media only screen and (max-width: 768px) {
 
  *{font-family:sans-serif;}
 
+ /* スマホ不要部分非表示 */
  .rightwhite{display: none;}
 
 .leftwhite{
@@ -307,23 +259,26 @@ position:fixed;
 top:0;
 left:0;
 height:100%;
+background:#000;
 width:80px;
 z-index:100;
 }
 .log{
-width:100% !important;
+width:100%;
 left:0;
 top:0;
 margin-left:15px;
+background:#000;
 }
 .log div.byousha{
 position:relative;
+color:rgb(136, 136, 136);
 word-break:break-word;
 overflow-wrap:break-word;
 margin-left:5px;
 margin-top:20px;
 margin-bottom:10px;
-width:90% !important;
+width:90%;
 z-index:200;
 font-size:90%;
 }
@@ -340,11 +295,13 @@ margin-top:10px;
 width:70px;
 height:70px;
 z-index:600;
+background:#000;
 }
 .left p,.right p{
 position:relative;
 font-size:90%;
 width:220px;
+background:#000;
 padding:10px;
 text-align:left;
 border-radius:10px;
@@ -374,24 +331,134 @@ right:100%;
 top:20px;
 }
 .left span,.right span{
+display:block;
+position:relative;
 width:150px;
 height:1.5em;
+background:#000;
+margin-bottom:-20px;
+margin-left:10px;
+padding-left:8px;
+border-radius:5px;
 font-size:90%;
 }
 a:link,a:visited,a:hover{text-decoration:none;color:rgb(136, 136, 136);;}
 .fixed{display:block;position:fixed;top:0;left:0;margin-left:0 !important;width:100%;background:#fff;height:30px;color:rgb(136, 136, 136);;z-index:999;padding-top:0.8em;padding-left:1em;font-weight:bold;}
 #top{display:block;margin-top:-100px;padding-top:100px;}
 
+/* animation */
+.LtoR{
+animation-name:slideL;
+animation-duration:0.8s;
+animation-fill-mode:forwards;
+opacity:0;
+}
+@keyframes slideL{
+from{
+transform:translateX(-100%);
+opacity:0;
+}
+to{
+transform:translateX(0);
+opacity:1;
+}
+}
+.LtoR-delay{
+animation-name:slideL2;
+animation-duration:.1s;
+animation-fill-mode:forwards;
+opacity:0;
+}
+@keyframes slideL2{
+from{
+transform:translateX(-100%);
+opacity:0;
+}
+to{
+transform:translateX(10%);
+opacity:1;
+}
+}
+.LtoR-early{
+animation-name:slideL3;
+animation-duration:0.7s;
+animation-fill-mode:forwards;
+opacity:0;
+}
+@keyframes slideL3{
+from{
+transform:translateX(-100%);
+opacity:0;
+}
+to{
+transform:translateX(0);
+opacity:1;
+}
+}
+
+/* priority */
+.log{margin-top:60px;}
+}
+
+
+/* member */
+  /* 発言者：KP */
+  .kp p{border:2px solid rgb(136, 136, 136);box-shadow:5px 5px 0 rgb(136, 136, 136);color:#fff;}
+  .kp p:after{border-right-color:rgb(136, 136, 136);}
+  .kp span{background:rgb(136, 136, 136);color:#000;}
+  .icon_kp:before{content:'';background-image:url("./icon/KP.png");background-size:contain;background-repeat:no-repeat;background-position:center center;width:90px;height:90px;}
+    /* 発言者：夜月 真夜 */
+  .p1 p{border:2px solid rgb(233,30,99);box-shadow:5px 5px 0 rgb(233,30,99);color:#fff;}
+  .p1 p:after{border-right-color:rgb(233,30,99);}
+  .p1 span{background:rgb(233,30,99);color:#000;}
+  .icon_p1_talk:before{content:'';background-image:url("./icon/maya_icon_1.png");background-size:contain;background-repeat:no-repeat;background-position:center center;width:90px;height:90px;}
+  .icon_p1_notalk:before{content:'';background-image:url("./icon/maya_icon_2.png");background-size:contain;background-repeat:no-repeat;background-position:center center;width:90px;height:90px;}
+  .icon_p1_ase:before{content:'';background-image:url("./icon/maya_icon_3.png");background-size:contain;background-repeat:no-repeat;background-position:center center;width:90px;height:90px;}
+  .icon_p1_nohand_notalk:before{content:'';background-image:url("./icon/maya_icon_4.png");background-size:contain;background-repeat:no-repeat;background-position:center center;width:90px;height:90px;}
+  .icon_p1_nohand_talk:before{content:'';background-image:url("./icon/maya_icon_5.png");background-size:contain;background-repeat:no-repeat;background-position:center center;width:90px;height:90px;}
+  .icon_p1_nohand_metoji:before{content:'';background-image:url("./icon/maya_icon_6.png");background-size:contain;background-repeat:no-repeat;background-position:center center;width:90px;height:90px;}
+  .icon_p1_dark:before{content:'';background-image:url("./icon/mayaY_icon_1.png");background-size:contain;background-repeat:no-repeat;background-position:center center;width:90px;height:90px;}
+  .icon_p1_zekkyou:before{content:'';background-image:url("./icon/mayaY_icon_2.png");background-size:contain;background-repeat:no-repeat;background-position:center center;width:90px;height:90px;}
+  .icon_p1_zekkyou_metoji:before{content:'';background-image:url("./icon/mayaY_icon_3.png");background-size:contain;background-repeat:no-repeat;background-position:center center;width:90px;height:90px;}
+  .icon_p1_zekkyou_naku:before{content:'';background-image:url("./icon/maya_iconY_4.png");background-size:contain;background-repeat:no-repeat;background-position:center center;width:90px;height:90px;}
+  /* 発言者：淵上 星嵐 */
+  .p2 p{border:2px solid rgb(179, 48, 255);box-shadow:5px 5px 0 rgb(179, 48, 255);color:#fff;}
+  .p2 p:after{border-right-color:rgb(179, 48, 255);}
+  .p2 span{background:rgb(179, 48, 255);color:#000;}
+  .icon_p2_notalk:before{content:'';background-image:url("./icon/seiran_icon_1.png");background-size:contain;background-repeat:no-repeat;background-position:center center;width:90px;height:90px;}
+  .icon_p2_smile:before{content:'';background-image:url("./icon/seiran_icon_2.png");background-size:contain;backrightground-repeat:no-repeat;background-position:center center;width:90px;height:90px;}
+  .icon_p2_oko:before{content:'';background-image:url("./icon/seiran_icon_3.png");background-size:contain;background-repeat:no-repeat;background-position:center center;width:90px;height:90px;}
+  .icon_p2_metoji:before{content:'';background-image:url("./icon/seiran_icon_4.png");background-size:contain;background-repeat:no-repeat;background-position:center center;width:90px;height:90px;}
+  .icon_p2_suneru:before{content:'';background-image:url("./icon/seiran_icon_5.png");background-size:contain;background-repeat:no-repeat;background-position:center center;width:90px;height:90px;}
+  /* 発言者：彼方☆キャミィ */
+  .p3 p{border:2px solid rgb(18, 255, 58);box-shadow:5px 5px 0 rgb(18, 255, 58);color:#fff;}
+  .p3 p:after{border-right-color:rgb(18, 255, 58);}
+  .p3 span{background:rgb(18, 255, 58);color:#000;}
+  .icon_p3_talk:before{content:'';background-image:url("./icon/kyami_icon_1.png");background-size:contain;background-repeat:no-repeat;background-position:center center;width:90px;height:90px;}
+  .icon_p3_ase:before{content:'';background-image:url("./icon/kyami_icon_2.png");background-size:contain;background-repeat:no-repeat;background-position:center center;width:90px;height:90px;}
+  .icon_p3_notalk:before{content:'';background-image:url("./icon/kyami_icon_3.png");background-size:contain;background-repeat:no-repeat;background-position:center center;width:90px;height:90px;}
+  .icon_p3_oko:before{content:'';background-image:url("./icon/kyami_icon_4.png");background-size:contain;background-repeat:no-repeat;background-position:center center;width:90px;height:90px;}
+  .icon_p3_shirakiru:before{content:'';background-image:url("./icon/kyami_icon_5.png");background-size:contain;background-repeat:no-repeat;background-position:center center;width:90px;height:90px;}
+  .icon_p3_shock:before{content:'';background-image:url("./icon/kyami_icon_6.png");background-size:contain;background-repeat:no-repeat;background-position:center center;width:90px;height:90px;}
+  .icon_p3_sleep:before{content:'';background-image:url("./icon/kyami_icon_7.png");background-size:contain;background-repeat:no-repeat;background-position:center center;width:90px;height:90px;}
+  .icon_p3_metoji:before{content:'';background-image:url("./icon/kyami_icon_8.png");background-size:contain;background-repeat:no-repeat;background-position:center center;width:90px;height:90px;}
+    /* 発言者：獅堂 エリス */
+  .p4 p{border:2px solid rgb(255, 235, 59);box-shadow:5px 5px 0 rgb(255, 235, 59);color:#fff;}
+  .p4 p:after{border-right-color:rgb(255, 235, 59);}
+  .p4 span{background:rgb(255, 235, 59);color:#000;}
+  .icon_p4_talk:before{content:'';background-image:url("./icon/erisu_icon_1.png");background-size:contain;background-repeat:no-repeat;background-position:center center;width:90px;height:90px;}
+  .icon_p4_peace:before{content:'';background-image:url("./icon/erisu_icon_2.png");background-size:contain;background-repeat:no-repeat;background-position:center center;width:90px;height:90px;}
+  .icon_p4_majime:before{content:'';background-image:url("./icon/erisu_icon_3.png");background-size:contain;background-repeat:no-repeat;background-position:center center;width:90px;height:90px;}
+  .icon_p4_ase:before{content:'';background-image:url("./icon/erisu_icon_4.png");background-size:contain;background-repeat:no-repeat;background-position:center center;width:90px;height:90px;}
+  .icon_p4_metoji:before{content:'';background-image:url("./icon/erisu_icon_5.png");background-size:contain;background-repeat:no-repeat;background-position:center center;width:90px;height:90px;}
+  .icon_p4_notalk:before{content:'';background-image:url("./icon/erisu_icon_6.png");background-size:contain;background-repeat:no-repeat;background-position:center center;width:90px;height:90px;}
+  
+/* スマホ用 */
+@media only screen and (max-width: 768px) {
 /* member */
 /* 発言者：KP */
-.kp p{border:2px solid rgb(136, 136, 136);box-shadow:5px 5px 0 rgb(136, 136, 136);color:#fff;}
-.kp p:after{border-right-color:rgb(136, 136, 136);}
-.kp span{background:rgb(136, 136, 136);color:#000;}
 .icon_kp:before{width:70px;height:70px;}
 /* 発言者：夜月 真夜 */
-.p1 p{border:2px solid rgb(233,30,99);box-shadow:5px 5px 0 rgb(233,30,99);color:#fff;}
-.p1 p:after{border-right-color:rgb(233,30,99);}
-.p1 span{background:rgb(233,30,99);color:#000;}
 .icon_p1_talk:before{width:70px;height:70px;}
 .icon_p1_notalk:before{width:70px;height:70px;}
 .icon_p1_ase:before{width:70px;height:70px;}
@@ -403,18 +470,12 @@ a:link,a:visited,a:hover{text-decoration:none;color:rgb(136, 136, 136);;}
 .icon_p1_zekkyou_metoji:before{width:70px;height:70px;}
 .icon_p1_zekkyou_naku:before{width:70px;height:70px;}
 /* 発言者：淵上 星嵐 */
-.p2 p{border:2px solid rgb(179, 48, 255);box-shadow:5px 5px 0 rgb(179, 48, 255);color:#fff;}
-.p2 p:after{border-right-color:rgb(179, 48, 255);}
-.p2 span{background:rgb(179, 48, 255);color:#000;}
 .icon_p2_notalk:before{width:70px;height:70px;}
 .icon_p2_smile:before{width:70px;height:70px;}
 .icon_p2_oko:before{width:70px;height:70px;}
 .icon_p2_metoji:before{width:70px;height:70px;}
 .icon_p2_suneru:before{width:70px;height:70px;}
 /* 発言者：彼方☆キャミィ */
-.p3 p{border:2px solid rgb(18, 255, 58);box-shadow:5px 5px 0 rgb(18, 255, 58);color:#fff;}
-.p3 p:after{border-right-color:rgb(18, 255, 58);}
-.p3 span{background:rgb(18, 255, 58);color:#000;}
 .icon_p3_talk:before{width:70px;height:70px;}
 .icon_p3_ase:before{width:70px;height:70px;}
 .icon_p3_notalk:before{width:70px;height:70px;}
@@ -424,16 +485,13 @@ a:link,a:visited,a:hover{text-decoration:none;color:rgb(136, 136, 136);;}
 .icon_p3_sleep:before{width:70px;height:70px;}
 .icon_p3_metoji:before{width:70px;height:70px;}
   /* 発言者：獅堂 エリス */
-.p4 p{border:2px solid rgb(255, 235, 59);box-shadow:5px 5px 0 rgb(255, 235, 59);color:#fff;}
-.p4 p:after{border-right-color:rgb(255, 235, 59);}
-.p4 span{background:rgb(255, 235, 59);color:#000;}
 .icon_p4_talk:before{width:70px;height:70px;}
 .icon_p4_peace:before{width:70px;height:70px;}
 .icon_p4_majime:before{width:70px;height:70px;}
 .icon_p4_ase:before{width:70px;height:70px;}
 .icon_p4_metoji:before{width:70px;height:70px;}
 .icon_p4_notalk:before{width:70px;height:70px;}    
-
-.log{margin-top:60px;}
-.log div{margin-top:2.5em;margin-bottom:2.5em;} 
 }
+
+/* priority */
+.log div{margin-top:2.5em;margin-bottom:2.5em;}
