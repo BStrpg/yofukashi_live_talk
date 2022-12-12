@@ -338,18 +338,11 @@ border-bottom-width:8px;
 border-left-width:20px;
 border-right-width:20px;
 border-right-color:#ccc;
-left:0;
 right:100%;
 }
 .left span,.right span{
-display:block;
-position:relative;
 width:150px;
 height:1.5em;
-margin-bottom:-20px;
-margin-left:10px;
-padding-left:8px;
-border-radius:5px;
 font-size:90%;
 }
 a:link,a:visited,a:hover{text-decoration:none;color:rgb(136, 136, 136);;}
