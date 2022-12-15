@@ -419,6 +419,7 @@ opacity:1;
   .icon_p1_nohand_notalk:before{content:'';background-image:url("./icon/maya_icon_4.png");background-size:contain;background-repeat:no-repeat;background-position:center center;width:90px;height:90px;}
   .icon_p1_nohand_talk:before{content:'';background-image:url("./icon/maya_icon_5.png");background-size:contain;background-repeat:no-repeat;background-position:center center;width:90px;height:90px;}
   .icon_p1_nohand_metoji:before{content:'';background-image:url("./icon/maya_icon_6.png");background-size:contain;background-repeat:no-repeat;background-position:center center;width:90px;height:90px;}
+  .icon_p1_nohand_tere:before{content:'';background-image:url("./icon/maya_icon_7.png");background-size:contain;background-repeat:no-repeat;background-position:center center;width:90px;height:90px;}
   .icon_p1_dark:before{content:'';background-image:url("./icon/mayaY_icon_1.png");background-size:contain;background-repeat:no-repeat;background-position:center center;width:90px;height:90px;}
   .icon_p1_zekkyou:before{content:'';background-image:url("./icon/mayaY_icon_2.png");background-size:contain;background-repeat:no-repeat;background-position:center center;width:90px;height:90px;}
   .icon_p1_zekkyou_metoji:before{content:'';background-image:url("./icon/mayaY_icon_3.png");background-size:contain;background-repeat:no-repeat;background-position:center center;width:90px;height:90px;}
@@ -429,7 +430,7 @@ opacity:1;
   .p2R p:after{border-right-color:#000;border-left-color:rgb(179, 48, 255);}
   .p2 span{background:rgb(179, 48, 255);color:#000;}
   .icon_p2_notalk:before{content:'';background-image:url("./icon/seiran_icon_1.png");background-size:contain;background-repeat:no-repeat;background-position:center center;width:90px;height:90px;}
-  .icon_p2_smile:before{content:'';background-image:url("./icon/seiran_icon_2.png");background-size:contain;backrightground-repeat:no-repeat;background-position:center center;width:90px;height:90px;}
+  .icon_p2_smile:before{content:'';background-image:url("./icon/seiran_icon_2.png");background-size:contain;background-repeat:no-repeat;background-position:center center;width:90px;height:90px;}
   .icon_p2_oko:before{content:'';background-image:url("./icon/seiran_icon_3.png");background-size:contain;background-repeat:no-repeat;background-position:center center;width:90px;height:90px;}
   .icon_p2_metoji:before{content:'';background-image:url("./icon/seiran_icon_4.png");background-size:contain;background-repeat:no-repeat;background-position:center center;width:90px;height:90px;}
   .icon_p2_suneru:before{content:'';background-image:url("./icon/seiran_icon_5.png");background-size:contain;background-repeat:no-repeat;background-position:center center;width:90px;height:90px;}
@@ -472,6 +473,7 @@ opacity:1;
 .icon_p1_nohand_notalk:before{width:70px;height:70px;}
 .icon_p1_nohand_talk:before{width:70px;height:70px;}
 .icon_p1_nohand_metoji:before{width:70px;height:70px;}
+.icon_p1_nohand_tere:before{width:70px;height:70px;}
 .icon_p1_dark:before{width:70px;height:70px;}
 .icon_p1_zekkyou:before{width:70px;height:70px;}
 .icon_p1_zekkyou_metoji:before{width:70px;height:70px;}
