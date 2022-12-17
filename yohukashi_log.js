@@ -14,10 +14,10 @@ var play = document.getElementById('play1');
 // 再生・停止
 function maya_music() {
     if (!music.paused) {
-        play.innerHTML = '<i class="fa-solid fa-play fa-sm"></i>';
+        play.innerHTML = '<i class="fa-solid fa-music fa-sm"></i>';
         music.pause();
     } else {
-        play.innerHTML = '<i class="fa-solid fa-stop fa-sm"></i>';
+        play.innerHTML = '<i class="fa-solid fa-pause fa-sm"></i>';
         music.play();
     }
 };
