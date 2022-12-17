@@ -2,6 +2,43 @@
 body {background-color: #000;}
 .hide{visibility:hidden;}
 
+/* 音楽ボタン */
+a.btn{
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 0.3;
+  position: relative;
+  display: inline-block;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  border-radius: 0.5rem;
+}
+a.btn--red {
+  color: #fff;
+  background-color: rgb(233,30,99);
+  border-bottom: 5px solid rgb(161, 22, 69);
+}
+a.btn--red:hover {
+  margin-top: 3px;
+  color: #fff;
+  background: rgb(246, 30, 102);
+  border-bottom: 2px solid rgb(161, 22, 69);
+}
+a.btn--shadow {
+  -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
+  box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
+}
+
 
 @media only screen and (min-width: 768px) {
 
@@ -249,10 +286,18 @@ width:100% !important;
 /* スマホ用 */
 @media only screen and (max-width: 768px) {
 
+/* 音楽ボタン */
+a.btn{
+  font-size: 1.0rem;
+  font-weight: 400;
+  line-height: 0.2;
+  padding: 1rem 1rem;
+}
+
  *{font-family:sans-serif;}
 
  /* スマホ不要部分非表示 */
- .rightwhite{display: none;}
+.rightwhite{display: none;}
 
 .leftwhite{
 position:fixed;
@@ -342,7 +387,7 @@ padding-left:8px;
 border-radius:5px;
 font-size:90%;
 }
-a:link,a:visited,a:hover{text-decoration:none;color:rgb(136, 136, 136);;}
+.fixed a:link,.fixed a:visited,.fixed a:hover{text-decoration:none;color:rgb(136, 136, 136);}
 .fixed{display:block;position:fixed;top:0;left:0;margin-left:0 !important;width:100%;background:#fff;height:30px;color:rgb(136, 136, 136);;z-index:999;padding-top:0.8em;padding-left:1em;font-weight:bold;}
 #top{display:block;margin-top:-100px;padding-top:100px;}
 
