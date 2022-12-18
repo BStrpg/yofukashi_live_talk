@@ -8,11 +8,31 @@ const mc6_mikkyou = new Audio('./music/密教の首飾り.mp3');
 const mc7_zaika = new Audio('./music/罪過に契約の血を.mp3');
 const mc8_gessyoku = new Audio('./music/月蝕のヴァニタス.mp3');
 const mc9_tugunai = new Audio('./music/EUPHORIA　償いのレクイエム.mp3');
+
+const play1 = document.getElementById('play1');
+const play2 = document.getElementById('play2');
+const play3 = document.getElementById('play3');
+const play4 = document.getElementById('play4');
+const play5 = document.getElementById('play5');
+const play6 = document.getElementById('play6');
+const play7 = document.getElementById('play7');
+const play8 = document.getElementById('play8');
+const play9 = document.getElementById('play9');
+
 var music = mc1_kagen;
-var play = document.getElementById('play1');
+var play;
 
 // 再生・停止
-function maya_music() {
+function maya_music(plID,mcNO) {
+    if (play !== plID) {
+        if (!music.paused) {
+            play.innerHTML = '<i class="fa-solid fa-music fa-sm"></i>';
+            music.pause();
+        }
+        play = plID;
+        music = mcNO;
+    }
+
     if (!music.paused) {
         play.innerHTML = '<i class="fa-solid fa-music fa-sm"></i>';
         music.pause();
@@ -21,87 +41,17 @@ function maya_music() {
         music.play();
     }
 };
+
 // 再生ボタン
-function play1() {
-    maya_music();
-    if (play !== document.getElementById('play1')) {
-        play = document.getElementById('play1');
-        music = mc1_kagen;
-        maya_music();
-    }
-};
-
-function play2() {
-    maya_music();
-    if (play !== document.getElementById('play2')) {
-        play = document.getElementById('play2');
-        music = mc2_tsukiyo;
-        maya_music();
-    }
-};
-
-function play3() {
-    maya_music();
-    if (play !== document.getElementById('play3')) {
-        play = document.getElementById('play3');
-        music = mc3_inori;
-        maya_music();
-    }
-};
-
-function play4() {
-    maya_music();
-    if (play !== document.getElementById('play4')) {
-        play = document.getElementById('play4');
-        music = mc4_hisui
-        maya_music();
-    }
-};
-
-function play5() {
-    maya_music();
-    if (play !== document.getElementById('play5')) {
-        play = document.getElementById('play5');
-        music = mc5_uruwashi;
-        maya_music();
-    }
-};
-
-function play6() {
-    maya_music();
-    if (play !== document.getElementById('play6')) {
-        play = document.getElementById('play6');
-        music = mc6_mikkyou;
-        maya_music();
-    }
-};
-function play7() {
-    maya_music();
-    if (play !== document.getElementById('play7')) {
-        play = document.getElementById('play7');
-        music = mc7_zaika;
-        maya_music();
-    }
-};
-
-function play8() {
-    maya_music();
-    if (play !== document.getElementById('play8')) {
-        play = document.getElementById('play8');
-        music = mc8_gessyoku;
-        maya_music();
-    }
-};
-
-function play9() {
-    maya_music();
-    if (play !== document.getElementById('play9')) {
-        play = document.getElementById('play9');
-        music = mc9_tugunai;
-        maya_music();
-    }
-};
-
+play1.addEventListener('click',function() {maya_music(play1,mc1_kagen);});
+play2.addEventListener('click',function() {maya_music(play2,mc2_tsukiyo);});
+play3.addEventListener('click',function() {maya_music(play3,mc3_inori);});
+play4.addEventListener('click',function() {maya_music(play4,mc4_hisui);});
+play5.addEventListener('click',function() {maya_music(play5,mc5_uruwashi);});
+play6.addEventListener('click',function() {maya_music(play6,mc6_mikkyou);});
+play7.addEventListener('click',function() {maya_music(play7,mc7_zaika);});
+play8.addEventListener('click',function() {maya_music(play8,mc8_gessyoku);});
+play9.addEventListener('click',function() {maya_music(play9,mc9_tugunai);});
 
 // スクロールすると表示される
 $windowWidth = window.innerWidth;
