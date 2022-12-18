@@ -19,6 +19,7 @@ const play7 = document.getElementById('play7');
 const play8 = document.getElementById('play8');
 const play9 = document.getElementById('play9');
 
+// 再生中の音楽
 var music = mc1_kagen;
 var play;
 
@@ -31,6 +32,7 @@ function maya_music(plID,mcNO) {
         }
         play = plID;
         music = mcNO;
+        music.currentTime = 0;
     }
 
     if (!music.paused) {
