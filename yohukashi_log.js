@@ -1,13 +1,13 @@
 // 要素
-const mc1_kagen = new Audio('./music/下弦の月.mp3');
-const mc2_tsukiyo = new Audio('./music/プレギエーラの月夜に.mp3');
-const mc3_inori = new Audio('./music/祈りのヴィオレット.mp3');
-const mc4_hisui = new Audio('./music/翡翠のカヴィリエーレ.mp3');
+const mc1_kagen    = new Audio('./music/下弦の月.mp3');
+const mc2_tsukiyo  = new Audio('./music/プレギエーラの月夜に.mp3');
+const mc3_inori    = new Audio('./music/祈りのヴィオレット.mp3');
+const mc4_hisui    = new Audio('./music/翡翠のカヴィリエーレ.mp3');
 const mc5_uruwashi = new Audio('./music/麗しきセデュース.mp3');
-const mc6_mikkyou = new Audio('./music/密教の首飾り.mp3');
-const mc7_zaika = new Audio('./music/罪過に契約の血を.mp3');
+const mc6_mikkyou  = new Audio('./music/密教の首飾り.mp3');
+const mc7_zaika    = new Audio('./music/罪過に契約の血を.mp3');
 const mc8_gessyoku = new Audio('./music/月蝕のヴァニタス.mp3');
-const mc9_tugunai = new Audio('./music/EUPHORIA　償いのレクイエム.mp3');
+const mc9_tugunai  = new Audio('./music/EUPHORIA_償いのレクイエム.mp3');
 
 const play1 = document.getElementById('play1');
 const play2 = document.getElementById('play2');
