@@ -43,15 +43,15 @@ function maya_music(plID,mcNO) {
 };
 
 // 再生ボタン
-play1.addEventListener('click',function() {maya_music(play1,mc1_kagen);});
-play2.addEventListener('click',function() {maya_music(play2,mc2_tsukiyo);});
-play3.addEventListener('click',function() {maya_music(play3,mc3_inori);});
-play4.addEventListener('click',function() {maya_music(play4,mc4_hisui);});
-play5.addEventListener('click',function() {maya_music(play5,mc5_uruwashi);});
-play6.addEventListener('click',function() {maya_music(play6,mc6_mikkyou);});
-play7.addEventListener('click',function() {maya_music(play7,mc7_zaika);});
-play8.addEventListener('click',function() {maya_music(play8,mc8_gessyoku);});
-play9.addEventListener('click',function() {maya_music(play9,mc9_tugunai);});
+function playMc1() {maya_music(play1,mc1_kagen);};
+function playMc2() {maya_music(play2,mc2_tsukiyo);};
+function playMc3() {maya_music(play3,mc3_inori);};
+function playMc4() {maya_music(play4,mc4_hisui);};
+function playMc5() {maya_music(play5,mc5_uruwashi);};
+function playMc6() {maya_music(play6,mc6_mikkyou);};
+function playMc7() {maya_music(play7,mc7_zaika);};
+function playMc8() {maya_music(play8,mc8_gessyoku);};
+function playMc9() {maya_music(play9,mc9_tugunai);};
 
 // スクロールすると表示される
 $windowWidth = window.innerWidth;
