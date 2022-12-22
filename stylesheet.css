@@ -20,6 +20,11 @@ body {
   justify-content: center;
   align-items: center;
   z-index: 999;
+  transition-duration: 0.2s;
+}
+.pagetop:hover {
+  background: rgb(57, 228, 202);
+  color: #fff;
 }
 .pagetop__arrow {
   height: 10px;
@@ -66,35 +71,45 @@ a.btn--shadow {
   box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
 }
 
+/* 背景固定 */
+.wrap-bg-sp {
+  position: relative;
+  padding: 5em 0.5em;
+}
+
+.bg{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.bg .inner{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    display: block;
+    position: sticky;
+    top: 0;
+}
+
+/* 背景画像 */
+.inner.cd-bg-0  {background: url('./img/背景/楽屋.jpg')no-repeat center;}
+.inner.cd-bg-1  {background: url('./img/背景/ライブステージ.jpg')no-repeat center;}
+.inner.cd-bg-2  {background: url('./img/背景/事務所.jpg')no-repeat center;}
+.inner.cd-bg-3  {background: url('./img/背景/アイドル寮.jpg')no-repeat center;}
+.inner.cd-bg-4  {background: url('./img/背景/街中.jpg')no-repeat center;}
+.inner.cd-bg-5  {background: url('./img/背景/放送局.jpg')no-repeat center;}
+.inner.cd-bg-6  {background: url('./img/背景/音楽スタジオ.jpg')no-repeat center;}
+.inner.cd-bg-7  {background: url('./img/背景/ステージ本番.jpg')no-repeat center;}
+
 
 @media only screen and (min-width: 768px) {
 
 /* pc不要部分非表示 */
 /* .fixed{display: none;}
 #top{display: none;} */
-
-/* 背景固定 */
-.cd-fixed-bg {
-  position: relative;
-  min-height: 100%;
-  height: 100%; /*--スクロールをさせるため 高さ指定-- */
-  background-size: cover; /*--背景画像のサイズ--*/
-  background-attachment: fixed; /*--背景画像の固定--*/
-  background-repeat: no-repeat; /*--背景画像の繰り返し--*/
-  background-position: center center; /*--背景画像の位置--*/
-  z-index: 2;
-  padding: 5em 0.5em;
-}
-
-/* 背景画像 */
-.cd-fixed-bg.cd-bg-0  {background-image: url('./img/背景/楽屋.jpg');}
-.cd-fixed-bg.cd-bg-1  {background-image: url('./img/背景/ライブステージ.jpg');}
-.cd-fixed-bg.cd-bg-2  {background-image: url('./img/背景/事務所.jpg');}
-.cd-fixed-bg.cd-bg-3  {background-image: url('./img/背景/アイドル寮.jpg');}
-.cd-fixed-bg.cd-bg-4  {background-image: url('./img/背景/街中.jpg');}
-.cd-fixed-bg.cd-bg-5  {background-image: url('./img/背景/放送局.jpg');}
-.cd-fixed-bg.cd-bg-6  {background-image: url('./img/背景/音楽スタジオ.jpg');}
-.cd-fixed-bg.cd-bg-7  {background-image: url('./img/背景/ステージ本番.jpg');}
 
 /* ページ遷移ボタン */
 div.page_box{
@@ -432,39 +447,6 @@ a.btn{
 
  /* スマホ不要部分非表示 */
 .rightwhite{display: none;}
-
-/* 背景固定 */
-.cd-fixed-bg {
-  position: relative;
-  padding: 5em 0.5em;
-}
-
-.bg{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-}
-.bg .inner{
-    width: 100%;
-    height: 100vh;
-    background-size: cover;
-    display: block;
-    position: sticky;
-    top: 0;
-}
-
-/* 背景画像 */
-.cd-bg-0  {background: url('./img/背景/楽屋.jpg')no-repeat center;}
-.cd-bg-1  {background: url('./img/背景/スマホ用/ライブステージ_768.jpg')no-repeat center;}
-.cd-bg-2  {background: url('./img/背景/スマホ用/事務所_768.jpg')no-repeat center;}
-.cd-bg-3  {background: url('./img/背景/スマホ用/アイドル寮_768.jpg')no-repeat center;}
-.cd-bg-4  {background: url('./img/背景/スマホ用/街中_768.jpg')no-repeat center;}
-.cd-bg-5  {background: url('./img/背景/スマホ用/放送局_768.jpg')no-repeat center;}
-.cd-bg-6  {background: url('./img/背景/スマホ用/音楽スタジオ_768.jpg')no-repeat center;}
-.cd-bg-7  {background: url('./img/背景/スマホ用/ステージ本番_768.jpg')no-repeat center;}
 
 /* ページ遷移ボタン */
 div.page_box{
