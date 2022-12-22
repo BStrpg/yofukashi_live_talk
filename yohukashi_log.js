@@ -54,6 +54,36 @@ function playMc6() {maya_music(play6,mc6_mikkyou);};
 function playMc7() {maya_music(play7,mc7_zaika);};
 function playMc8() {maya_music(play8,mc8_gessyoku);};
 function playMc9() {maya_music(play9,mc9_tugunai);};
+// play1.addEventListener('click',function() {maya_music(play1,mc1_kagen);});
+// play2.addEventListener('click',function() {maya_music(play2,mc2_tsukiyo);});
+// play3.addEventListener('click',function() {maya_music(play3,mc3_inori);});
+// play4.addEventListener('click',function() {maya_music(play4,mc4_hisui);});
+// play5.addEventListener('click',function() {maya_music(play5,mc5_uruwashi);});
+// play6.addEventListener('click',function() {maya_music(play6,mc6_mikkyou);});
+// play7.addEventListener('click',function() {maya_music(play7,mc7_zaika);});
+// play8.addEventListener('click',function() {maya_music(play8,mc8_gessyoku);});
+// play9.addEventListener('click',function() {maya_music(play9,mc9_tugunai);});
+
+// function play1() {
+//     maya_music();
+//     if (play !== document.getElementById('play1')) {
+//         play = document.getElementById('play1');
+//         music = mc1_kagen;
+//         maya_music();
+//     }
+// };
+
+// /*++++ オーディオ要素のリスト ++++*/
+// var audios = document.querySelectorAll( "audio" );
+
+// /*++++ イベント ++++*/
+// for(var i=0;i<audios.length;i++){
+// audios[ i ].addEventListener( "play", function(){
+// for(var j=0;j<audios.length;j++){
+// if( audios[ j ]!=this ){ audios[ j ].pause() }
+// }
+// }, false );
+// }
 
 // スクロールすると表示される
 $windowWidth = window.innerWidth;
