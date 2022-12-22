@@ -6,6 +6,7 @@ body {
 }
 .hide{visibility:hidden;}
 
+/* 背景固定 */
 .cd-fixed-bg {
   position: relative;
   min-height: 100%;
@@ -17,14 +18,6 @@ body {
   z-index: 2;
   padding: 5em 0.5em;
 }
-.cd-fixed-bg.cd-bg-0  {background-image: url('./img/背景/楽屋.jpg');}
-.cd-fixed-bg.cd-bg-1  {background-image: url('./img/背景/ライブステージ.jpg');}
-.cd-fixed-bg.cd-bg-2  {background-image: url('./img/背景/事務所.jpg');}
-.cd-fixed-bg.cd-bg-3  {background-image: url('./img/背景/アイドル寮.jpg');}
-.cd-fixed-bg.cd-bg-4  {background-image: url('./img/背景/街中.jpg');}
-.cd-fixed-bg.cd-bg-5  {background-image: url('./img/背景/放送局.jpg');}
-.cd-fixed-bg.cd-bg-6  {background-image: url('./img/背景/音楽スタジオ.jpg');}
-.cd-fixed-bg.cd-bg-7  {background-image: url('./img/背景/ステージ本番.jpg');}
 
 /* ページトップボタン */
 .pagetop {
@@ -92,6 +85,16 @@ a.btn--shadow {
 /* pc不要部分非表示 */
 /* .fixed{display: none;}
 #top{display: none;} */
+
+/* 背景画像 */
+.cd-fixed-bg.cd-bg-0  {background-image: url('./img/背景/楽屋.jpg');}
+.cd-fixed-bg.cd-bg-1  {background-image: url('./img/背景/ライブステージ.jpg');}
+.cd-fixed-bg.cd-bg-2  {background-image: url('./img/背景/事務所.jpg');}
+.cd-fixed-bg.cd-bg-3  {background-image: url('./img/背景/アイドル寮.jpg');}
+.cd-fixed-bg.cd-bg-4  {background-image: url('./img/背景/街中.jpg');}
+.cd-fixed-bg.cd-bg-5  {background-image: url('./img/背景/放送局.jpg');}
+.cd-fixed-bg.cd-bg-6  {background-image: url('./img/背景/音楽スタジオ.jpg');}
+.cd-fixed-bg.cd-bg-7  {background-image: url('./img/背景/ステージ本番.jpg');}
 
 /* ページ遷移ボタン */
 div.page_box{
@@ -429,6 +432,16 @@ a.btn{
 
  /* スマホ不要部分非表示 */
 .rightwhite{display: none;}
+
+/* 背景画像 */
+.cd-fixed-bg.cd-bg-0  {background-image: url('./img/背景/スマホ用/楽屋_768.jpg');}
+.cd-fixed-bg.cd-bg-1  {background-image: url('./img/背景/スマホ用/ライブステージ_768.jpg');}
+.cd-fixed-bg.cd-bg-2  {background-image: url('./img/背景/スマホ用/事務所_768.jpg');}
+.cd-fixed-bg.cd-bg-3  {background-image: url('./img/背景/スマホ用/アイドル寮_768.jpg');}
+.cd-fixed-bg.cd-bg-4  {background-image: url('./img/背景/スマホ用/街中_768.jpg');}
+.cd-fixed-bg.cd-bg-5  {background-image: url('./img/背景/スマホ用/放送局_768.jpg');}
+.cd-fixed-bg.cd-bg-6  {background-image: url('./img/背景/スマホ用/音楽スタジオ_768.jpg');}
+.cd-fixed-bg.cd-bg-7  {background-image: url('./img/背景/スマホ用/ステージ本番_768.jpg');}
 
 /* ページ遷移ボタン */
 div.page_box{
