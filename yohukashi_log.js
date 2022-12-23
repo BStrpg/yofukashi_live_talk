@@ -84,30 +84,6 @@ function playMc9() {maya_music(play9,mc9_tugunai);};
 // }
 // }, false );
 // }
-$('.pagetop')
-    .bind('touchstart', function(){
-        $(this).addClass('hover');
-    }).bind('touchend', function(){
-        $(this).removeClass('hover');
-});
-$('a.page_btn')
-    .bind('touchstart', function(){
-        $(this).addClass('hover');
-    }).bind('touchend', function(){
-        $(this).removeClass('hover');
-});
-$('a.page_btn_width')
-    .bind('touchstart', function(){
-        $(this).addClass('hover');
-    }).bind('touchend', function(){
-        $(this).removeClass('hover');
-});
-$('a.btn--red')
-    .bind('touchstart', function(){
-        $(this).addClass('hover');
-    }).bind('touchend', function(){
-        $(this).removeClass('hover');
-});
 
 // スクロールすると表示される
 $windowWidth = window.innerWidth;
@@ -308,6 +284,11 @@ else if (isMobileSize) {
             }
         }
     }
+
+    $(function() {
+        $('body').attr('ontouchstart', '');
+    });
+
     opacityON();
 
 };
