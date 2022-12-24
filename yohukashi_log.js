@@ -85,6 +85,34 @@ function playMc9() {maya_music(play9,mc9_tugunai);};
 // }, false );
 // }
 
+// ページトップボタン
+// スクロールした際の動きを関数でまとめる
+function pagetopAnime() {
+	var scroll = $(window).scrollTop();
+	if (scroll >= 600){//上から200pxスクロールしたら
+		$('#page-top').removeClass('DownMove');//#page-topについているDownMoveというクラス名を除く
+		$('#page-top').addClass('UpMove');//#page-topについているUpMoveというクラス名を付与
+	}else{
+		if($('#page-top').hasClass('UpMove')){//すでに#page-topにUpMoveというクラス名がついていたら
+			$('#page-top').removeClass('UpMove');//UpMoveというクラス名を除き
+			$('#page-top').addClass('DownMove');//DownMoveというクラス名を#page-topに付与
+		}
+	}
+}
+// 画面をスクロールをしたら動かしたい場合の記述
+$(window).scroll(function () {
+	pagetopAnime();/* スクロールした際の動きの関数を呼ぶ*/
+});
+
+// #page-topをクリックした際の設定
+$('#page-top').click(function () {
+    $('body,html').animate({
+        scrollTop: 0//ページトップまでスクロール
+    }, 500);//ページトップスクロールの速さ。数字が大きいほど遅くなる
+    return false;//リンク自体の無効化
+});
+
+// ログ
 // スクロールすると表示される
 $windowWidth = window.innerWidth;
 $breakPointA = 768;
